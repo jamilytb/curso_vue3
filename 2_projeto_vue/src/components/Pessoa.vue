@@ -5,17 +5,17 @@
   </div>
 </template>
 <script>
-    import Info from './Info'
+import Info from './Info'
 
-    export default {
-        name: 'Pessoa',
-        components: {
-           Info
-        },
-        data() {   
-            return {
-                nome: 'Jamily'
-            }
-        }
+export default {
+  name: 'Pessoa',
+  components: {
+    Info
+  },
+  data() {
+    return {
+      nome: 'Jamily'
     }
+  }
+}
 </script>
